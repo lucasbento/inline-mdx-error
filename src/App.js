@@ -1,6 +1,7 @@
+/* @jsx mdx */
+import {mdx} from '@mdx-js/react'
 import React, { Component } from "react";
 import { inline } from "inline-mdx.macro";
-import { MDXTag } from "@mdx-js/tag";
 
 const SomeMDXComponent = inline`
 
